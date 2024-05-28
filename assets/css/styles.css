@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;  
+
+}
+
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contactos{
+    width:20%;
+    background-color: white;    
+    overflow-y: auto; 
+}
+
+/* primer cuadro */
+.header{
+    /* border: solid 1px #b9aeca; */
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* foto del primer cuadro */
+.foto1{
+    /* border-radius: 50%; ------ establece la imagen con bordes circulares */
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.estado{    
+    display: flex;
+    gap: 0 1rem;
+}
+
+.menu{
+    display: flex;
+    gap: 0 1rem;    
+}
+
+.boton{
+    /* border: solid 1px #b9aeca; */
+    background-color:white;
+    height: 15vh;
+    width: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;       
+}
+
+.btn{
+    border: 0px;
+    width: 150px;
+    height: 50px; 
+    background-color: #A491D2;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;           
+}
+
+.usuario{
+
+     
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    padding: 0 1rem;
+    gap: 0 1rem;    
+
+} 
+
+.foto{
+
+    /* border-radius: 50%; ------ establece la imagen con bordes circulares */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.principal{
+
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fondo{
+    
+    display: flex;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+    padding-bottom: 3%;
+}
+
+.texto{
+    
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+
+
+
